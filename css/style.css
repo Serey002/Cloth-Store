@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 0px 20px;
+}
+.home{
+    background-image: url(https://t4.ftcdn.net/jpg/03/13/65/17/360_F_313651795_OUrd7HrFYuxo9LXuuREFvRyIPeEfVSLj.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    height: 70vh;
+    border-radius: 20px;
+}
