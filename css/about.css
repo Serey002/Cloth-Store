@@ -29,20 +29,22 @@ header p{
     padding-right: 40px;
     font-size: 18px;
 }
-header .btn{
-    padding: 12px 24px;
-    border-radius: 4px;
-    border: none;
-    font-size: 20px;
-    font-weight: 550;
-    margin-right: 40px;
-    margin-top: 16px;
-    cursor: pointer;
-    
-}
-header .btn:hover{
-    background-color: #243f5c;
+.btn{
+    background: #000000;
     color: white;
+    padding: 10px 30px;
+    margin-top: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn:hover{
+    background: white;
+    color: #000000;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 .container{
     display: flex;
@@ -66,7 +68,7 @@ header .btn:hover{
     font-size: 18px;
 }
 .logo-pnc img{
-    width: 300px;
+    width: 200px;
     height: 120px;
 }
 
@@ -117,11 +119,16 @@ header .btn:hover{
     cursor: pointer;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
-.card-mvl{
+.card-mvl {
     display: flex;
     gap: 50px;
     justify-content: space-between;
 }
+.card-mvl {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}    
  .card-3{
     width: 30%;
     height: auto;
@@ -223,16 +230,20 @@ header .btn:hover{
  
 .card-profile{
     text-align: center;
-    background-color: #446180;
+    /* background-color: #446180; */
+    box-shadow: 2px 4px 20px rgba(181, 179, 179, 0.674);
     width: 230px;
     height: auto;
     padding: 20px;
+    /* border: 1px solid gray; */
+    
     border-radius: 8px;
     cursor: pointer;
     transition: 0.3s ease;
 }
+
 .card-profile:hover{
-    background-color: #243f5c;
+    background-color: #dfdfdf;
 }
 .card-img img{
     width: 150px;
@@ -241,6 +252,9 @@ header .btn:hover{
     margin-bottom: 15px;
     border: 6px solid #fff;
 }
+.content-card{
+
+}
 .content-card h2{
     font-size: 26px;
     margin-bottom: 10px;
@@ -248,7 +262,7 @@ header .btn:hover{
 }
 .content-card h3{
     margin: 10px 0px;
-    color: #fff;
+    color: #000000;
 }
 .social ul{
     display: flex;
@@ -291,17 +305,21 @@ header .btn:hover{
      
 }
 .brand-lap{
+    background: #ffd2d2;
     margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+     
 }
+ 
 .brand-lap img{
     margin: 5px;
     width: 150px;
     height: 100px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
+ 
 .brand-lap img{
     transition: .3s;
     transform: scale(1);

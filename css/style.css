@@ -26,7 +26,7 @@ main{
 #title-home{
     color: black;
 }
-.home button{
+button{
     background: #000000;
     color: white;
     padding: 10px 30px;
@@ -37,7 +37,7 @@ main{
     cursor: pointer;
     transition: 0.3s;
 }
-.home button:hover{
+button:hover{
     background: white;
     color: #000000;
     transform: translateY(-3px);
