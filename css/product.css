@@ -1,0 +1,74 @@
+.product{
+    background-image: url(https://i.pinimg.com/1200x/a4/e8/7f/a4e87f77a37610077e81af5287f95163.jpg);
+    background-size: cover;
+    padding: 50px 120px;
+    color: rgb(255, 255, 255);
+    text-align: right;
+    height: 70vh;
+    border-radius: 20px;
+}
+
+.our-product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.new-best-top-product{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+#nike{
+    border-bottom: 2px solid ;
+}
+.nike-product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.nike-card{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.nike-card-1 img{
+    height: 300px;
+}
+#cloth-title{
+    color: gray;
+    font-size: 14px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+#green-text{
+    color: rgb(0, 147, 0);
+}
+#red-text{
+    color: rgb(220, 0, 11);
+}
+#yollo-text{
+    color: rgb(244, 201, 29);
+}
+#button{
+    background: #ffd344;
+    font-weight: bold;
+    padding: 8px 20px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#button:hover{
+    background: white;
+    color: #ffd344;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
