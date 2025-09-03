@@ -88,3 +88,77 @@ i{
     right: 40px;
     color: gray;
 }
+
+
+/* footer */
+
+footer {
+      background: #1a1252;
+      color: white;
+      padding: 40px 80px;
+    }
+.footer-container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+}
+.footer-container .sec h2 {
+      font-weight: bold;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #fff;
+      display: inline-block;
+      padding-bottom: 5px;
+}
+.footer-container .sec ul {
+      list-style: none;
+}
+.footer-container .sec ul li {
+      margin: 8px 0;
+}
+.footer-container .sec ul li a {
+      text-decoration: none;
+      color: #ccc;
+      transition: 0.3s;
+}
+.footer-container .sec ul li a:hover {
+      color: white;
+      padding-left: 5px;
+}
+    /* Subscribe */
+.subscribe {
+      max-width: 250px;
+ }
+.subscribe input {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      outline: none;
+      margin-bottom: 10px;
+      border-radius: 5px;
+}
+.subscribe button {
+      width: 100%;
+      padding: 10px;
+      background: #ccc;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+}
+.subscribe button:hover {
+      background: white;
+}
+    /* Social Media */
+.social {
+      margin-top: 20px;
+      text-align: center;
+}
+.social a {
+      display: inline-block;
+      margin: 0 8px;
+}
+.social a img {
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+}
