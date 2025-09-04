@@ -1,15 +1,48 @@
-.container{
-    background-image: url('https://t3.ftcdn.net/jpg/03/20/68/66/360_F_320686681_Ur6vdYQgDC9WiijiVfxlRyQffxOgfeFz.jpg');
+/* .container{
+    
     background-repeat: no-repeat;
     background-size: cover;
-    height: 295px;
+    height: 500px;
     justify-content: flex-start;
     align-content: center;
     padding-left: 300px;
     padding-bottom: 60px 20px;
     padding-top: 20px; 
     
-} 
+}  */
+.contact{
+    background-image: url('https://t3.ftcdn.net/jpg/03/20/68/66/360_F_320686681_Ur6vdYQgDC9WiijiVfxlRyQffxOgfeFz.jpg');
+    background-size: cover;
+    padding: 50px 120px;
+    color: rgb(255, 255, 255);
+    text-align: right;
+    height: 70vh;
+    border-radius: 20px 20px 0px 0px;
+
+}
+.contact h1{
+    font-size: 50px;
+}
+#title-home{
+    color: black;
+}
+.contact button{
+    background: #000000;
+    color: white;
+    padding: 10px 30px;
+    margin-top: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.contact button:hover{
+    background: white;
+    color: #000000;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
 .container h1{
     color: whitesmoke;
     font-size: 50px;
@@ -19,6 +52,9 @@
     font-size: 15px;
     padding-top: 20px;
 }
+
+
+
 header {
     background-color:#091f2a;
     height: 750px;
@@ -175,13 +211,12 @@ textarea {
     background-color: #050b7c;
 } 
 .content {
-    margin-top: 40px;
+    margin-top: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 60px;
-    margin-bottom: 40px;
     height: 700px;
     width: 100%;
     padding-bottom: 100px;
@@ -203,10 +238,15 @@ textarea {
     min-width: 250px;
     padding: 30px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     border-radius: 10px;
   
+}
+.card-shq img{
+    height: 150px;
+    width: 200px;
 }
 .more-info{
     background-color: #12143A;
