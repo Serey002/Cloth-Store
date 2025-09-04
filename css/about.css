@@ -4,21 +4,16 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-header{
-    margin: 0;
-    padding: 0;
-    background-image: url(https://s3.ams.com.kh/infotainment/2022/12/Untitled-1-36.png);
-    height: 60vh;
+
+.contact{
+    background-image: url(https://thelogoclothingcompany.com.au/cdn/shop/files/Print_copy_1500x.jpg?v=1709776802);
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: flex-end;
-    padding: 60px;
-    gap: 10PX;
-    color: white;
+    padding: 50px 120px;
+    color: rgb(255, 255, 255);
+    text-align: right;
+    height: 70vh;
+    border-radius: 20px 20px 0px 0px;
+
 }
 header h1{
     font-size: 40px;
@@ -156,9 +151,9 @@ header .btn:hover{
 .why-choose{
     padding-right: 100px;
 }
-.why-choose h1{
-    font-size: 32px;
-    font-weight: 600;
+.why-choose h2{
+    color: black;
+    font-size: 30px
 }
 .why-choose p{
     padding-top: 50px;
@@ -216,70 +211,36 @@ header .btn:hover{
 }
 .container-profile-1{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 25px;
     padding: 25px;
 }
  
 .card-profile{
     text-align: center;
-    background-color: #446180;
-    width: 230px;
-    height: auto;
-    padding: 20px;
+    background-color: #ffffff;
     border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     cursor: pointer;
     transition: 0.3s ease;
 }
 .card-profile:hover{
-    background-color: #243f5c;
+    transform: translateX(-5px);
+    background-color: #75899e;
+    color: white;
 }
 .card-img img{
-    width: 150px;
-    height: 180px;
-    border-radius: 16px;
-    margin-bottom: 15px;
-    border: 6px solid #fff;
+    width: 200px;
+    height: 200px;
+    /* border-radius: 16px;
+    margin-bottom: 15px; */
 }
 .content-card h2{
     font-size: 26px;
     margin-bottom: 10px;
-    color: #fff;
 }
 .content-card h3{
     margin: 10px 0px;
-    color: #fff;
-}
-.social ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-}
-.social ul li{
-    list-style: none;
-
-}
-.social a{
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #fff;
-    transition: .6s;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, .5);
-}
-.social a:hover{
-    transform: translate(0, -10px);
-}
-.social a .fa{
-    padding-top: 10px;
-    font-size: 20px;
-    border-radius: 50%;
-    transition: .6s;
-    color: #000;
 }
 .title-brand{
     margin-top: 40px;
@@ -315,7 +276,6 @@ hr{
     margin-left: 25%;
 }
 .footer-container{
-    background: #da8d8d;
     display: flex;
     
 }
