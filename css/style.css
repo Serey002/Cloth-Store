@@ -44,6 +44,11 @@ main{
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 /* famust-product */
+.famust-product1{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
 .famust-product h2{
     margin-bottom: 10px;
 }
