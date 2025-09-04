@@ -82,6 +82,17 @@ cd cloth-store
     style="border-radius: 50%;" alt="User1"/>
   </a>
 
+
+  <a href="https://github.com/Ranit170805">
+    <img src="./images/profile2.png" width="50" 
+    style="border-radius: 50%;" alt="User1"/>
+  </a>
+
+  <a href="https://github.com/seyha203">
+    <img src="./images/profile3.png" width="50" 
+    style="border-radius: 50%;" alt="User1"/>
+  </a>
+
 # 📄 License
 
 This project is licensed under the MIT License.
