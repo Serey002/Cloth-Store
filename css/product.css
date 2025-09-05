@@ -76,3 +76,31 @@
 /* template tablate */
 
 /* template mobile phone */
+@media (max-width:699px) and (min-width:350px){
+    .product{
+        padding: 15px;
+        height: 30vh;
+    }
+    .product h1{
+        display: none;
+    }
+    .our-product h1{
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    .new-best-top-product{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+    .new-best-top-product p{
+        font-size: 10px;
+    }
+    .nike-card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+    }
+    .nike-card-1 img{
+        height: 215px;
+    }
+}

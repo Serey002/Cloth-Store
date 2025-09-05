@@ -149,7 +149,45 @@ main{
 
 /* template mobile phone */
 @media (max-width:699px) and (min-width:350px){
-    nav{
-        
+    .home{
+        padding: 15px;
+        height: 30vh;
     }
+    .home h1{
+        font-size: 18px;
+    }
+    .home p{
+        font-size: 10px;
+    }
+    .home button{
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+    .top-cloth{
+        display: flex;
+        flex-direction: column;
+    }
+    .NEW-Nike{
+        display: flex;
+        justify-content: space-between;
+    }
+    .top-cloth img{
+        height: 150px;
+    }
+    .famust-product2{
+        display: flex;
+        flex-direction: column;
+    }
+    .Nike-Sportswear{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .Nike-Sportswear img{
+        height: 117px;
+    }
+    .Sportswear{
+        grid-column: span 3;
+        margin-bottom: 20px;
+    }
+
 }

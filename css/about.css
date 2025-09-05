@@ -286,3 +286,10 @@ hr{
 /* template tablate */
 
 /* template mobile phone */
+@media (max-width:699px) and (min-width:350px){
+    .contact{
+        padding: 15px;
+        height: 30vh;
+    }
+    
+}
