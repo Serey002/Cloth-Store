@@ -138,5 +138,18 @@ main{
 }
 
 /* template tablate */
+@media (max-width:899px) and (min-width:700px){
+    .home{
+    height: 400px;
+    font-size: 12px;
+    }
+    .home 
+
+}
 
 /* template mobile phone */
+@media (max-width:699px) and (min-width:350px){
+    nav{
+        
+    }
+}
