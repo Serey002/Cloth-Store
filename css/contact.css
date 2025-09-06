@@ -294,6 +294,9 @@ hr:hover {
         padding-right: 40px;
         height: 45vh;
     }
+    .shq{
+        width: 100%;
+    }
     header{
         display: flex;
     }
