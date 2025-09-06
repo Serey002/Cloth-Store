@@ -74,6 +74,17 @@
 }
 
 /* template tablate */
+@media (max-width:899px) and (min-width:700px){
+    .product{
+    padding: 20px 40px;
+    height: 400px;
+    font-size: 12px;
+    }
+    .nike-card{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
 
 /* template mobile phone */
 @media (max-width:699px) and (min-width:350px){

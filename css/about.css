@@ -284,6 +284,26 @@ hr{
 }
 
 /* template tablate */
+@media (max-width:899px) and (min-width:700px){
+    .contact{
+        padding: 20px 40px;
+        height: 400px;
+        font-size: 12px;
+    }
+    .nike-card{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .container{
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        max-width: 100%;
+        height: auto;
+    }
+    
+}
 
 /* template mobile phone */
 @media (max-width:699px) and (min-width:350px){

@@ -140,11 +140,27 @@ main{
 /* template tablate */
 @media (max-width:899px) and (min-width:700px){
     .home{
+    padding: 20px 40px;
     height: 400px;
     font-size: 12px;
     }
-    .home 
-
+    .top-cloth{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .top-cloth img{
+        height: 200px;
+    }
+    .Nike-Sportswear{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .Nike-Sportswear img{
+        height: 400px;
+    }
+    .Sportswear{
+        background: #efefef;
+    }
 }
 
 /* template mobile phone */
