@@ -32,9 +32,7 @@
         </div>
     </nav>
     <main>
-        <div class="contact">
-            
-        </div>
+        <div class="contact"></div>
         <div class="container">
             <div class="content-1">
                 <div class="content-a">
@@ -53,15 +51,15 @@
                     <div class="member">
                         <p>100</p>
                         <span>Members</span>
-                    </div>|
+                    </div>
                     <div class="clients">
                         <p>100k +</p>
                         <span>Clients</span>
-                    </div>|
+                    </div>
                     <div class="experience">
                         <p>5 Years</p>
                         <span>Experiences</span>
-                    </div>|
+                    </div>
                     <div class="type-of-sales">
                         <p>10 Types</p>
                         <span>Sales</span>
@@ -262,6 +260,14 @@
             <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube"></a>
         </div>
     </footer>
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const menu = document.getElementById('menu');
+
+        menuToggle.addEventListener('click', () => {
+        menu.classList.toggle('active');
+        });
+    </script>
 </body>
 
 </html>
