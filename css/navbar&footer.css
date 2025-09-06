@@ -171,4 +171,38 @@ footer {
     height: 35px;
     border-radius: 50%;
 }
-
+@media (max-width:699px) and (min-width:350px){
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    nav img{
+        height: 40px;
+    }
+    nav ul {
+        color: white;
+        display: none;
+        flex-direction: column;
+        backdrop-filter:saturate(160%) blur(2px);
+        background:linear-gradient(180deg, rgba(157, 157, 157, 0.578), rgba(28, 41, 74, 0.573));
+        border-bottom:1px solid rgba(255,255,255,.06);
+        position: absolute;
+        top: 60px;
+        right: 0px;
+        width: 150px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    #menu li a{
+        color: white;
+    }
+    nav ul.active {
+        display: flex;
+    }
+    .menu-toggle{
+        display: block;
+    }
+    .search{
+        display: none;
+    }
+}

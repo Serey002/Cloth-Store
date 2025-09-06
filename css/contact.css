@@ -57,7 +57,7 @@
 
 header {
     background-color:#091f2a;
-    height: 750px;
+    height:750px;
     width:100%;
     display: flex;
 }
@@ -289,3 +289,68 @@ hr:hover {
 /* template tablate */
 
 /* template mobile phone */
+@media (max-width:699px) and (min-width:350px){
+    .contact{
+        padding: 15px;
+        height: 30vh;
+    }
+    .contact h1{
+        font-size: 18px;
+    }
+    .contact p{
+        font-size: 10px;
+    }
+    .contact button{
+        padding: 5px 10px;
+        font-size: 10px;
+    }    
+    header{
+        background: none;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-us {
+        height: 50%;
+        width: 100%;
+        gap: 30px;
+        padding-left: 0px;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+    .owner-contact-info {
+        background-color:#091f2a;
+        /* padding: 30px; */
+        flex-direction: none;
+        gap: 0px;
+        width: 100%;
+        color: rgb(192, 178, 178);
+        justify-content: center;
+        color: #CCCCCC;
+        font-size: 15px;
+    }
+    .form-input {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 100px;
+        margin-bottom: 0px;
+    }
+    .content{
+        margin-top: 800px;
+        margin-bottom: 500px;
+
+    }
+    .shq{
+        display: grid;
+
+    }
+    #map{
+        display: none;
+        
+    }
+    hr{
+        display: none;
+    }
+    footer{
+    }
+}
