@@ -101,6 +101,9 @@
         gap: 8px;
     }
     .nike-card-1 img{
-        height: 215px;
+        height: 250px;
+    }
+    hr{
+        display: none;
     }
 }
