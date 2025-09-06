@@ -288,4 +288,41 @@ hr:hover {
 
 /* template tablate */
 
+@media (max-width:870px) and (min-width:770px){
+    .contact{
+        font-size: 25px;
+        padding-right: 40px;
+        height: 45vh;
+    }
+    header{
+        display: flex;
+    }
+    .contact-us{
+        margin-top: 1px;
+        padding-top: 10px;
+        padding-left: 30px;
+    }
+    .owner-contact-info {
+        padding: 50px;
+        flex-direction: column;
+        gap: 80px;
+        width: 70%;
+        color: rgb(192, 178, 178);
+        /* justify-content: space-between; */
+        color: #CCCCCC;
+        font-size: 20px;
+    }
+    .form-input {
+        border-radius: 10px;
+        width: 50%;
+        height: 80%;
+        box-shadow: 1px 1px 20px rgba(3, 0, 0, 0.1);
+        background-color: white;
+        margin-left: -100px;
+        margin-right: 200px;
+        margin-top: 75px;
+        margin-bottom: 50px;
+    }
+}
+
 /* template mobile phone */
