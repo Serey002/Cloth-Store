@@ -71,7 +71,19 @@ cd cloth-store
 - Improve cart system with local storage or backend
 
 # Screenshot
-![alt text](image.png)
+![alt text](./images/home-page.png)
+![alt text](./images/home-page2.png)
+![alt text](./images/home-page3.png)
+![alt text](./images/product-page.png)
+![alt text](./images/product-page2.png)
+![alt text](./images/about-page.png)
+![alt text](./images/about-page2.png)
+![alt text](./images/about-page3.png)
+![alt text](./images/about-page4.png)
+![alt text](./images/contact1.png)
+![alt text](./images/contact3.png)
+![alt text](./images/contact4.png)
+![alt text](./images/footer.png)
 
 
 
